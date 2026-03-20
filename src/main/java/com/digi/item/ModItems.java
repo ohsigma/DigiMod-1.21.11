@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item DIGINITE_INGOT = registerItem("diginite_ingot", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM,Identifier.of(Digi.MOD_ID,"diginite_ingot")))));
-
+    public static final Item RAW_DIGINITE = registerItem("raw_diginite", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM,Identifier.of(Digi.MOD_ID,"raw_diginite")))));
 
 
     private static Item registerItem(String name, Item item) {
@@ -24,6 +24,7 @@ public class ModItems {
         Digi.LOGGER.info("Registering Mod Items for " + Digi.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(DIGINITE_INGOT);
+            fabricItemGroupEntries.add(RAW_DIGINITE);
         });
     }
 }
