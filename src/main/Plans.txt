@@ -2,5 +2,5 @@ Raw Diginite smelts into Diginite Ingot
 Block of Diginite + crafting recipe (9x ingots)
 Full Diginite tools + sword
 Full Diginite armor
-Tools + armor = Netherite strength + more durability
+Tools + armor = Stronger than Netherite + more durability
 "ANALOG" A paxel which combines all tools with infinite durability and with massive damage output
